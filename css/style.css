@@ -9,17 +9,19 @@ h2{
 font-size: 40;
 margin-top:-29px;
 }
+
 .pale{
   font-size: 40px!important;
   margin-left: 16%;
-
 }
+
 .about-container{
   margin-top: 30px;
   width: auto;
   border:1px;
  margin-left: 0.6%;
 }
+
 .about-image{
   height: 20px;
   width: 70%;
@@ -28,7 +30,7 @@ margin-top:-29px;
   float: left;
 }
 
-  .about-content{
+.about-content{
     float:right;
     width: 81%;
     border:1px;
@@ -39,6 +41,13 @@ margin-top:-29px;
   font-size: 20px;
   color:#0000ff;
 }
+
 .or{
   font-size: 16px;
+}
+.container{
+  background-color:white;
+}
+body{
+  background-color: #cae1ff;
 }
