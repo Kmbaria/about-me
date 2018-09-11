@@ -1,53 +1,98 @@
+body{
+  background-image: url(../image/feed.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .jumbotron{
   background-color: #00FF7F;
   color:black;
-  font-size: 60px;
+  font-size: 70px;
   text-align: center;
+   height:15%;
+   width:96%;
+   margin: auto;
+   margin-top: 7px;
+   margin-right: 300px;
+
+
 }
 
+.container{
+  /*border: 1px;*/
+   /*height: 600px;*/
+   /*margin-left:100px;
+   margin-right:100px;*/
+ background-image: url(../image/see.jpg);
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+}
+
+
 h2{
-font-size: 40;
+font-size: 30px;
 margin-top:-29px;
+line-height: 20px;
+
 }
 
 .pale{
   font-size: 40px!important;
-  margin-left: 16%;
+  margin-left: 21%;
+  font-family: fantasy;
+
+
 }
 
 .about-container{
   margin-top: 30px;
-  width: auto;
+  /*width: 100%;
+  height:100%;*/
   border:1px;
- margin-left: 0.6%;
+  margin-left: 0.5%;
 }
 
 .about-image{
-  height: 20px;
-  width: 70%;
-  border:1px;
-  margin:2px;
   float: left;
+ margin:-5px;
+  border:1px;
+  margin-top: 4px;
 }
 
 .about-content{
     float:right;
-    width: 81%;
-    border:1px;
-    font-size: 20px;
+    width:81%;
+    border:2px;
+    font-size: 18px;
+    margin-top: 11px;
+
   }
 
 .ge{
-  font-size: 20px;
-  color:#0000ff;
+  font-size: 17px;
+  color:#B22222;
+  font-family: monospace;
+
 }
 
 .or{
-  font-size: 16px;
+  font-size: 17.5px;
+  font-family: fantasy;
+  text-decoration:underline;
+
 }
-.container{
-  background-color:white;
+
+.nb{
+  color: #00FF7F;
+  margin-right: 1%;
+
 }
-body{
-  background-color: #cae1ff;
+.fn{
+  font-family: cursive;
+  font-size: 20px;
 }
+
+/*.get{
+  font-size: 1px
+}*/
