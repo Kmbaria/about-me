@@ -1,28 +1,68 @@
-@media only screen and (max-device-width: 480px) {
-        div#wrapper {
-            width: 400px;
-        }
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
 
-        div#header {
-            background-image: url(media-queries-phone.jpg);
-            height: 93px;
-            position: relative;
-        }
+@media (min-width: 1281px) {
 
-        div#header h1 {
-            font-size: 140%;
-        }
+  //CSS
 
-        #content {
-            float: none;
-            width: 100%;
-        }
+}
 
-        #navigation {
-            float:none;
-            width: auto;
-        }
-    }
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  //CSS
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  //CSS
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  //CSS
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  //CSS
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  //CSS
+
+}
 body{
   background-image: url(../image/feed.jpg);
   background-attachment: fixed;
